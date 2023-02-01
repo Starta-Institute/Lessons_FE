@@ -1,0 +1,91 @@
+p {
+    border: 1px solid black;
+
+}
+.paragraph_1 {
+    width: 50%;
+    font-size: 2em;
+}
+.paragraph_2 {
+    width: 500px;
+}
+li {
+    font-size: 0.8rem;
+}
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+div {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.block_1 {
+    /* width: 100vw; */
+   /* height:  50vh; */
+   width: 50vmax;
+   height: 50vmin;
+}
+.block_2{
+    width: 500px;
+}
+.block_3 {
+    width: 100%;
+}
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+.main {
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    background-color: aquamarine;
+    border: 2px solid black;
+ 
+
+}
+
+.tesk {
+    width: 50%;
+    height: 400px;
+  padding: 30px 5%;
+  margin: 40px 20%;
+  border: 5px solid black;
+  box-sizing: border-box;
+  /* background-color: rgb(55, 125, 85); */
+  background-color: rgba(60, 10, 10, 0.5);
+}
+.about-me {
+    width: 80%;
+    max-width: 1200px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: cyan;
+    color: black;
+    
+}
+.my-hobbies {
+    width: 80%;
+    max-width: 1200px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: darkseagreen;
+    color: rgb(79, 67, 52);
+}
+.contacts {
+    width: 80%;
+    max-width: 1200px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: coral;
+    color: hsla(128, 68%, 65%, 0.36);
+}

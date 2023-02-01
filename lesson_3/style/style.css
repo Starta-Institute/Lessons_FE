@@ -1,0 +1,141 @@
+ol, ul {
+    list-style: lower-roman;
+}
+
+
+table, tr, td {
+   border: 2px solid yellowgreen; 
+   border-collapse: collapse;
+   border-radius: 10px;
+}
+
+/* table tr:first-child, table tr:last-child {
+    background-color: gray;
+    color: white;
+} */
+
+/* table tr:last-child {
+    background-color: gray;
+    color: white;
+} */
+
+/* table tr:nth-child(2) {
+    background-color: rgb(0, 255, 225);
+    color: white;
+} */
+
+/* table tr:nth-child(6) {
+    background-color: blue;
+    color: white;
+} */
+
+/* n 0,1,2,3,4,5,6,7... */
+
+/* 0 */
+/* 1 -> 2 */
+/* 2 -> 4 */
+/* 3 -> 6 */
+/* 4 -> 8 */
+
+/* table tr:nth-child(2n) {
+    background-color: green;
+    color: white;
+} */
+
+/* table tr:nth-child(even) {
+    background-color: green;
+    color: white;
+} */
+
+/* 0 */
+/* 1 -> 1 */
+/* 2 -> 3 */
+/* 3 -> 5 */
+/* 4 -> 7 */
+
+/* table tr:nth-child(2n-1) {
+    background-color: blue;
+    color: white;
+} */
+
+/* table tr:nth-child(odd) {
+    background-color: blue;
+    color: white;
+} */
+
+/* table tr:nth-child(n+4) {
+    background-color: blue;
+} */
+
+
+/* ===================== */
+
+/*
+(4n-3)
+1 => 4n-3 => 1 | 4n-2 => 2  ...
+2 => 4n-3 => 5 | 4n-2 => 6  ...
+3 => 4n-3 => 9 | 4n-2 => 10 ...
+*/
+
+/* table tr:nth-child(4n-3) {
+    background-color: blue;
+}
+table tr:nth-child(4n-2) {
+    background-color: green;
+}
+table tr:nth-child(4n-1) {
+    background-color: orange;
+}
+table tr:nth-child(4n) {
+    background-color: gray;
+} */
+
+/* table tr:nth-child(2n) td:nth-child(2n-1),
+table tr:nth-child(2n-1) td:nth-child(2n) {
+    background-color: black;
+    color: white;
+} */
+
+
+/* table tr:nth-child(-n+5) {
+    background-color: black;
+    color: white;
+} */
+/* n = [0,1,2,3,4,5,6,7..]. */
+/* 
+0 => 5
+1 => 4
+2 => 3
+3 => 2
+4 => 1
+5 => 0
+6 => -1
+.....
+*/
+
+/* table tr:first-child td,
+table tr:nth-child(2) td {
+    text-align: center;
+} */
+
+table tr:nth-child(-n+2) td {
+    text-align: center;
+}
+
+/* table tr td {
+    text-align: center;
+} */
+
+
+table {
+    margin-bottom: 100px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: darkgray;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}

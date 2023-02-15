@@ -9,63 +9,63 @@ table, tr, td {
    border-radius: 10px;
 }
 
-/* table tr:first-child, table tr:last-child {
+ table tr:first-child, table tr:last-child {
     background-color: gray;
     color: white;
-} */
+} 
 
-/* table tr:last-child {
+table tr:last-child {
     background-color: gray;
     color: white;
-} */
+} 
 
-/* table tr:nth-child(2) {
+table tr:nth-child(2) {
     background-color: rgb(0, 255, 225);
     color: white;
-} */
+} 
 
-/* table tr:nth-child(6) {
+table tr:nth-child(6) {
     background-color: blue;
     color: white;
-} */
+} 
 
-/* n 0,1,2,3,4,5,6,7... */
+ /* n 0,1,2,3,4,5,6,7...  */
 
-/* 0 */
-/* 1 -> 2 */
-/* 2 -> 4 */
-/* 3 -> 6 */
-/* 4 -> 8 */
+ /* 0 
+ 1 -> 2 
+2 -> 4
+3 -> 6 
+4 -> 8 */
 
-/* table tr:nth-child(2n) {
+table tr:nth-child(2n) {
     background-color: green;
     color: white;
-} */
+} 
 
-/* table tr:nth-child(even) {
+table tr:nth-child(even) {
     background-color: green;
     color: white;
-} */
+} 
 
-/* 0 */
-/* 1 -> 1 */
-/* 2 -> 3 */
-/* 3 -> 5 */
-/* 4 -> 7 */
+/* 0 
+1 -> 1 
+2 -> 3 
+3 -> 5 
+4 -> 7  */
 
-/* table tr:nth-child(2n-1) {
+table tr:nth-child(2n-1) {
     background-color: blue;
     color: white;
-} */
+} 
 
-/* table tr:nth-child(odd) {
+table tr:nth-child(odd) {
     background-color: blue;
     color: white;
-} */
+} 
 
-/* table tr:nth-child(n+4) {
+table tr:nth-child(n+4) {
     background-color: blue;
-} */
+} 
 
 
 /* ===================== */

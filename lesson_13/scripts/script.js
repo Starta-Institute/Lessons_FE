@@ -65,9 +65,16 @@ div.append(p) // добавляет элемент после всех доче�
 
 const paragraphsTexts = ["Day 1", "Day 2", "Day 3","Day 4"];
 for (let index = 0; index < paragraphsTexts.length; index++) {
+    // const p = document.createElement("p")
+    // p.innerText = paragraphsTexts[index]
+    // div.append(p)   
+    div.append(newParagraph(paragraphsTexts[index])) 
+}
+
+function newParagraph(text) {
     const p = document.createElement("p")
-    p.innerText = paragraphsTexts[index]
-    div.append(p)    
+    p.innerText = text
+    return p  
 }
 
 
